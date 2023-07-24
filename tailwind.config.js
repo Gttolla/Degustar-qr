@@ -12,17 +12,17 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
-      emerald: colors.emerald,
-      indigo: colors.indigo,
-      yellow: colors.yellow,
+      'primary': '#B43F3F',
+      'text': '#EEEEEE',
     },
+    fontFamily: {
+      'titles': ['"Montserrat"'],
+    }
   },
 
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
   ],
-
-
 }
 
