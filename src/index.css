@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/** mobile-screen */
+/* mobile-screen */
 #container{
     @apply max-w-md mx-auto h-screen py-12
 }
@@ -19,7 +19,12 @@
     @apply px-1 bg-white bg-opacity-20 border-2 border-white border-opacity-50 rounded-full
 }
 
-/* Global Class **/
+/* contact-bar */
+.ContactBar-icon{
+    @apply basis-[10%]
+}
+
+/* Global Class */
 .font-titles{
     @apply font-[600]
 }
