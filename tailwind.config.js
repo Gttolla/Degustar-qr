@@ -13,6 +13,7 @@ module.exports = {
       white: colors.white,
       gray: colors.gray,
       'primary': '#B43F3F',
+      'top-screen': '#5A1D1D',
       'text': '#EEEEEE',
     },
     fontFamily: {

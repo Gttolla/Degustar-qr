@@ -10,10 +10,10 @@
     @apply w-full h-full rounded-[50px] bg-gradient-to-r from-gray-700 to-gray-900 p-3
 }
 .screen{
-    @apply w-full h-full rounded-[50px] bg-gradient-to-r from-gray-600 to-gray-800
+    @apply w-full h-full relative rounded-[50px] bg-white
 }
 #top-screen{
-    @apply  flex justify-between items-center
+    @apply  flex justify-between items-center border-b-[1px] border-white border-opacity-20
 }
 #batery{
     @apply px-1 bg-white bg-opacity-20 border-2 border-white border-opacity-50 rounded-full
@@ -24,7 +24,16 @@
     @apply basis-[10%]
 }
 
+/* Main */
+#background{
+    @apply absolute bottom-0 bg-gradient-to-t from-white from-70% to-transparent
+}
+
 /* Global Class */
+::-webkit-scrollbar{
+    width: 0;
+}
+
 .font-titles{
-    @apply font-[600]
+    @apply font-semibold
 }
