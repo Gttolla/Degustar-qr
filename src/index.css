@@ -25,8 +25,8 @@
 }
 
 /* Main */
-#background{
-    @apply absolute bottom-0 bg-gradient-to-t from-white from-70% to-transparent
+#gradient{
+    @apply absolute px-6 bottom-0 bg-gradient-to-t from-white from-80% 
 }
 
 /* Global Class */
