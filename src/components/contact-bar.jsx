@@ -8,8 +8,8 @@ function ContactBar (){
 
                 <span className="text-text font-medium font-titles basis-4/5">Seja bem vindo!</span>
                 
-                <Wp className="ContactBar-icon" size={25} color="white"/>
-                <Email className="ContactBar-icon" size={30} color="white"/>
+                <a href="https://api.whatsapp.com/message/4WMLSCLMQTAVN1?autoload=1&app_absent=0" className="ContactBar-icon"><Wp size={25} color="white"/></a> 
+                <a href="mailto:rose@degustarbuffet.com.br"  className="ContactBar-icon"><Email size={30} color="white"/></a>
 
             </nav>
         </header>

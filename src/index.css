@@ -26,15 +26,30 @@
 
 /* Main */
 #gradient{
-    @apply absolute px-6 bottom-0 bg-gradient-to-t from-white from-80% 
+    @apply w-full h-auto absolute bottom-0 px-6 bg-gradient-to-t from-white from-70% 
 }
 .social-icons{
     @apply bg-primary p-5 rounded-full text-text
+}
+.page-block{
+    @apply w-full h-[163px] relative drop-shadow-xl
+}
+.page-block-title{
+    @apply absolute bottom-0 flex items-center h-8 w-full p-2 bg-[#eee]
+}
+.page-block img{
+    @apply w-full h-full
 }
 
 /* Global Class */
 ::-webkit-scrollbar{
     width: 0;
+}
+h1{
+    @apply font-text font-bold text-2xl
+}
+footer{
+    @apply text-text
 }
 
 .font-titles{

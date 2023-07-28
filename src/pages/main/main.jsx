@@ -1,14 +1,17 @@
-import { FaWhatsapp as Wp, FaFacebook as Face, FaInstagram as Insta,  } from 'react-icons/fa6'
+import { FaWhatsapp as Wp, FaFacebook as Face, FaInstagram as Insta, } from 'react-icons/fa6'
 import { TbWorldWww as Site } from 'react-icons/tb'
 
 import MobileScren from "../../components/mobile-screen";
 import TopScreen from "../../components/top-screen";
 import ContactBar from "../../components/contact-bar";
+import Footer from '../../components/footer';
 
 import Img from "../../assets/imgs/img.jpg"
 import Logo from "../../assets/imgs/logo.jpg"
+import Events from "../../assets/imgs/events.jpg"
+import Clients from "../../assets/imgs/clients.jpg"
 
-function Main (){
+function Main() {
 
     const content =
         <div>
@@ -17,11 +20,14 @@ function Main (){
                 <ContactBar />
             </div>
 
-            <div className="h-[396px] w-full relative">
-                <div className="w-full h-1/2" id="gradient">
-                    <div className="flex items-center mt-4">
+            <div className="relative" id="image-gradient">
+
+                <img src={Img} alt="img" className="w-full object-cover h-80" />
+
+                <div id="gradient">
+                    <div className="flex items-center">
                         <div className="h-24 w-24 p-2 mr-2 bg-white rounded-full border-[3px] overflow-hidden border-primary">
-                            <img src={Logo} alt="logo" className="h-full w-full"/>
+                            <img src={Logo} alt="logo" className="h-full w-full" />
                         </div>
 
                         <div className="leading-5">
@@ -30,27 +36,44 @@ function Main (){
                             <span className="text-black text-opacity-50 font-medium font-titles text-[14px]">Eventos empresariais</span>
                         </div>
                     </div>
-
-                    <h1 className="font-text font-bold text-2xl mt-8 mb-3">Elevando o Paladar</h1>
-                    <p className="font-text">Descubra o sabor inesquecível com a Degustar Buffet! Criamos experiências gastronômicas extraordinárias para eventos corporativos, com um cardápio personalizado que vai do simples ao refinado. Escolha a Degustar Buffet e eleve o nível do seu próximo evento, onde sabor e emoção se encontram em perfeita harmonia!</p>
-                    
-                    <div className="flex w-full mt-8 justify-between">
-                        <div className="social-icons"><Wp size={30}/></div>
-                        <div className="social-icons"><Insta size={30}/></div>
-                        <div className="social-icons"><Face size={30}/></div>
-                        <div className="social-icons"><Site size={30}/></div>
-                    </div>
                 </div>
 
-                <img src={Img} alt="img" className="w-full h-full" />
             </div>
+            
+            <div className="px-6 pt-8 pb-28">
+                <h1 className="mb-3">Elevando o Paladar</h1>
+                <p className="font-text">Descubra o sabor inesquecível com a Degustar Buffet! Criamos experiências gastronômicas extraordinárias para eventos corporativos, com um cardápio personalizado que vai do simples ao refinado. Escolha a Degustar Buffet e eleve o nível do seu próximo evento, onde sabor e emoção se encontram em perfeita harmonia!</p>
+
+                <div className="flex w-full my-9 justify-between">
+                    <a href="https://api.whatsapp.com/message/4WMLSCLMQTAVN1?autoload=1&app_absent=0" className="social-icons"><Wp size={30} /></a>
+                    <a href="https://www.instagram.com/degustar.buffet/" className="social-icons"><Insta size={30} /></a>
+                    <a href="https://m.facebook.com/degustarbuffetoficial" className="social-icons"><Face size={30} /></a>
+                    <a href="https://www.degustarbuffet.com.br" className="social-icons"><Site size={30} /></a>
+                </div>
+
+                <h1>Confira nosso <br /> trabalho!</h1>
+
+                <div className="page-block mt-7 mb-8">
+                    <img src={Clients} alt="clientes" />
+                    <div className="page-block-title">
+                        <span className="font-titles">Nossos Clientes</span>
+                    </div>
+                </div>
+                <div href="" className="page-block">
+                    <img src={Events} alt="eventos" />
+                    <div className='page-block-title'>
+                        <span className="font-titles">Eventos</span>
+                    </div>
+                </div>
+            </div>
+
+            <Footer />
+
         </div>
-        
 
-
-    return( 
+    return (
         <MobileScren content={content} />
-    );  
+    );
 }
 
 export default Main;
