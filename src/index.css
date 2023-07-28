@@ -28,6 +28,9 @@
 #gradient{
     @apply absolute px-6 bottom-0 bg-gradient-to-t from-white from-80% 
 }
+.social-icons{
+    @apply bg-primary p-5 rounded-full text-text
+}
 
 /* Global Class */
 ::-webkit-scrollbar{
