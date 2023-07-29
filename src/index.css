@@ -4,7 +4,7 @@
 
 /* mobile-screen */
 #container{
-    @apply max-w-md mx-auto h-screen py-12
+    @apply w-[475px] h-screen
 }
 .mobile{
     @apply w-full h-full rounded-[50px] bg-gradient-to-r from-gray-700 to-gray-900 p-3
@@ -17,11 +17,6 @@
 }
 #batery{
     @apply px-1 bg-white bg-opacity-20 border-2 border-white border-opacity-50 rounded-full
-}
-
-/* contact-bar */
-.ContactBar-icon{
-    @apply basis-[10%]
 }
 
 /* Main */
@@ -38,10 +33,16 @@
     @apply absolute bottom-0 flex items-center h-8 w-full p-2 bg-[#eee]
 }
 .page-block img{
-    @apply w-full h-full
+    @apply w-full h-full object-cover
 }
 
 /* Global Class */
+*{
+    @apply box-border
+}
+body{
+    @apply m-0
+}
 ::-webkit-scrollbar{
     width: 0;
 }

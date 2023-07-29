@@ -1,6 +1,6 @@
 function Events () {
     return(
-        <h1>Eventos</h1>
+        <h1 className="px-6">Eventos</h1>
     );
 }
 
