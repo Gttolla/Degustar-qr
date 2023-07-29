@@ -17,12 +17,12 @@ function App() {
     </Routes>
 
   return (
-    <div className="flex items-center justify-between px-96">
+    <div id="app-container">
       <MobileScren content={content}/>
 
-      <div>
-        <h1 className=" mb-4">Acesse nosso cartão pelo celular</h1>
-        <QRCode value="https://degustarbuffet-socialmedias.netlify.app" className=" border-8 rounded-xl mx-auto border-primary"/>
+    <div id="qr-text">
+      <h1 className="mb-4">Acesse nosso cartão pelo celular</h1>
+      <QRCode value="https://degustarbuffet-socialmedias.netlify.app" className=" mx-auto border-primary"/>
       </div>
     </div>
   );

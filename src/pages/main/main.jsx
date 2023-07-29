@@ -44,7 +44,7 @@ function Main() {
                 <h1 className="mb-3">Elevando o Paladar</h1>
                 <p className="font-text">Descubra o sabor inesquecível com a Degustar Buffet! Criamos experiências gastronômicas extraordinárias para eventos corporativos, com um cardápio personalizado que vai do simples ao refinado. Escolha a Degustar Buffet e eleve o nível do seu próximo evento, onde sabor e emoção se encontram em perfeita harmonia!</p>
 
-                <div className="flex w-full my-9 justify-between">
+                <div className="flex w-full my-9 justify-between flex-wrap gap-2">
                     <a href="https://api.whatsapp.com/message/4WMLSCLMQTAVN1?autoload=1&app_absent=0" className="social-icons"><Wp size={30} /></a>
                     <a href="https://www.instagram.com/degustar.buffet/" className="social-icons"><Insta size={30} /></a>
                     <a href="https://m.facebook.com/degustarbuffetoficial" className="social-icons"><Face size={30} /></a>

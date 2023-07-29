@@ -18,7 +18,7 @@ function TopScreen () {
     }, []);
 
     return(
-        <div className="px-6 py-1 text-text bg-primary" id="top-screen">
+        <div id="top-screen">
                         
             <div className="w-11">
                 <span>{hr}</span>

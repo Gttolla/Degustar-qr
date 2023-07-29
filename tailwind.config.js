@@ -19,7 +19,10 @@ module.exports = {
     fontFamily: {
       'titles': ['"Montserrat"'],
       'text': ['"Poppins"']
-    }
+    },
+    screens: {
+      'wrap': '1090px',
+    },
   },
 
   plugins: [
