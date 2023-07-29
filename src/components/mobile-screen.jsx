@@ -2,7 +2,7 @@ function MobileScren (props){
     return(
         <div id="container">
             <div className="mobile">
-                <div className="screen overflow-auto" id="screen">
+                <div className="overflow-auto" id="screen">
                     {props.content}
                 </div>
             </div>

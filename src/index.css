@@ -4,12 +4,12 @@
 
 /* mobile-screen */
 #container{
-    @apply w-[475px] h-screen
+    @apply w-[475px] h-screen py-6
 }
 .mobile{
     @apply w-full h-full rounded-[50px] bg-gradient-to-r from-gray-700 to-gray-900 p-3
 }
-.screen{
+#screen{
     @apply w-full h-full relative rounded-[50px] bg-white
 }
 #top-screen{

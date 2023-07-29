@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import QRCode from "react-qr-code";
 
 import MobileScren from "./components/mobile-screen";
 import Main from "./pages/main/main";
@@ -16,7 +17,14 @@ function App() {
     </Routes>
 
   return (
-    <MobileScren content={content}/>
+    <div className="flex items-center justify-between px-96">
+      <MobileScren content={content}/>
+
+      <div>
+        <h1 className=" mb-4">Acesse nosso cartão pelo celular</h1>
+        <QRCode value="https://degustarbuffet-socialmedias.netlify.app" className=" border-8 rounded-xl mx-auto border-primary"/>
+      </div>
+    </div>
   );
 }
 
