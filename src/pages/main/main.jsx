@@ -13,7 +13,7 @@ function Main() {
         <div>
             <div className="relative" id="image-gradient">
 
-                <img src={Img} alt="img" className="w-full object-cover h-80" />
+                <img src={Img} alt="img" className="w-full object-cover h-80"/>
 
                 <div id="gradient">
                     <div className="flex items-center">

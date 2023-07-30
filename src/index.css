@@ -89,7 +89,7 @@ footer {
 
     /* app */
     #app-container {
-        @apply flex items-center justify-center flex-wrap gap-4
+        @apply flex items-center justify-center flex-wrap gap-[5%]
     }
 }
 
