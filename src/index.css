@@ -3,87 +3,111 @@
 @tailwind utilities;
 
 /* Global Classes */
-*{
+* {
     @apply box-border
 }
-body{
+
+body {
     @apply m-0
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 0;
 }
-h1{
+
+h1 {
     @apply font-text font-bold text-2xl
 }
-footer{
-    @apply text-text
+
+footer {
+    @apply text-text mt-28
 }
-.font-titles{
+
+.font-titles {
     @apply font-semibold
 }
 
 /* mobile-screen */
-#screen{
+#screen {
     @apply w-full h-full relative bg-white
 }
 
 /* top-screen */
-#batery{
+#batery {
     @apply px-1 bg-white bg-opacity-20 border-2 border-white border-opacity-50 rounded-full
 }
 
 /* Main */
-#gradient{
-    @apply w-full h-auto absolute bottom-0 px-6 bg-gradient-to-t from-white from-70% 
+#gradient {
+    @apply w-full h-auto absolute bottom-0 px-6 bg-gradient-to-t from-white from-70%
 }
-.social-icons{
+
+.social-icons {
     @apply bg-primary p-5 rounded-full text-text
 }
-.page-block{
+
+.page-block {
     @apply w-full h-[163px] relative drop-shadow-xl
 }
-.page-block-title{
+
+.page-block-title {
     @apply absolute bottom-0 flex items-center h-8 w-full p-2 bg-[#eee]
 }
-.page-block img{
+
+.page-block img {
     @apply w-full h-full object-cover
 }
 
- /* Responsive classes */
- @media(min-width: 1024px){
+/* Clients */
+.client-block{
+    @apply h-24 w-[45%] border-2 border-primary rounded-[5px] flex items-center justify-center overflow-hidden
+} 
+.client-block img{
+    @apply object-cover w-28
+}
+
+/* Responsive classes */
+@media(min-width: 1024px) {
 
     /* mobile-screen */
-    #container{
+    #container {
         @apply w-[475px] h-screen py-6
     }
-    .mobile{
+
+    .mobile {
         @apply w-full h-full rounded-[50px] bg-gradient-to-r from-gray-700 to-gray-900 p-3
     }
-    #screen{
+
+    #screen {
         @apply rounded-[50px]
     }
 
     /* top-screen */
-    #top-screen{
-        @apply  px-6 py-1 text-text bg-primary flex justify-between items-center border-b-[1px] border-white border-opacity-20
+    #top-screen {
+        @apply px-6 py-1 text-text bg-primary flex justify-between items-center border-b-[1px] border-white border-opacity-20
     }
 
     /* app */
-    #app-container{
-        @apply flex items-center justify-center flex-wrap gap-4 px-[10%]
+    #app-container {
+        @apply flex items-center justify-center flex-wrap gap-4
     }
 }
-@media(max-width: 1023px){
+
+@media(max-width: 1023px) {
 
     /* top-screen */
-    #top-screen{
+    #top-screen {
         @apply hidden
     }
 
     /* app */
-    #qr-text{
+    #qr-text {
         @apply hidden
     }
 }
 
-
+@media(max-width: 327px){
+    .client-block{
+        @apply flex-grow 
+    } 
+}

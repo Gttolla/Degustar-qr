@@ -5,12 +5,12 @@ import Logo from "../assets/imgs/logo.jpg"
 
 function Footer () {
     return(
-        <footer className="px-6 py-4 bg-primary font-['Montserrat'] text-[12px] flex">
+        <footer className="px-6 py-4 bg-primary font-['Montserrat'] text-[12px] flex justify-between flex-wrap gap-4">
             
             <div>
                 <div className="flex items-center mb-2">
                     <Wp size={20} className="mr-[11px]"/>
-                    <p>(11) 987121653</p>
+                    <p>(11) 93145-5520</p>
                 </div>
                 <div className="flex items-center">
                     <Email size={20} className="mr-[11px]"/>
@@ -18,7 +18,7 @@ function Footer () {
                 </div>
             </div>
 
-            <div className="border-l-2 pl-4 ml-4 flex items-center">
+            <div className="border-l-2 pl-4 flex items-center">
     
                 <img src={Logo} alt="logo" className="rounded-full h-[39px] w-[39px] mr-2"/>
 

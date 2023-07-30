@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaWhatsapp as Wp, FaFacebook as Face, FaInstagram as Insta, } from 'react-icons/fa6'
 import { TbWorldWww as Site } from 'react-icons/tb'
 
-import TopScreen from "../../components/top-screen";
-import ContactBar from "../../components/contact-bar";
-import Footer from '../../components/footer';
-
 import Img from "../../assets/imgs/img.jpg"
 import Logo from "../../assets/imgs/logo.jpg"
 import Events from "../../assets/imgs/events.jpg"
@@ -15,11 +11,6 @@ import Clients from "../../assets/imgs/clients.jpg"
 function Main() {
     return (
         <div>
-            <div className="sticky w-full top-0 z-50">
-                <TopScreen />
-                <ContactBar />
-            </div>
-
             <div className="relative" id="image-gradient">
 
                 <img src={Img} alt="img" className="w-full object-cover h-80" />
@@ -40,7 +31,7 @@ function Main() {
 
             </div>
 
-            <div className="px-6 pt-8 pb-28">
+            <div className="px-6 pt-8">
                 <h1 className="mb-3">Elevando o Paladar</h1>
                 <p className="font-text">Descubra o sabor inesquecível com a Degustar Buffet! Criamos experiências gastronômicas extraordinárias para eventos corporativos, com um cardápio personalizado que vai do simples ao refinado. Escolha a Degustar Buffet e eleve o nível do seu próximo evento, onde sabor e emoção se encontram em perfeita harmonia!</p>
 
@@ -63,7 +54,7 @@ function Main() {
                 </Link>
 
                 <Link to='/eventos'>
-                    <div href="" className="page-block">
+                    <div className="page-block">
                         <img src={Events} alt="eventos" />
                         <div className='page-block-title'>
                             <span className="font-titles">Eventos</span>
@@ -71,9 +62,6 @@ function Main() {
                     </div>'
                 </Link>
             </div>
-
-            <Footer />
-
         </div>
 
 
