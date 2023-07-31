@@ -26,12 +26,14 @@ function App() {
     </Routes>
 
   return (
-    <div id="app-container">
-      <MobileScren content={content}/>
-      
-      <div id="qr-text">
-        <h1 className="mb-10 text-center">Acesse nosso cartão <br /> pelo celular</h1>
-        <QRCode value="https://degustarbuffet-socialmedias.netlify.app" className=" mx-auto border-primary"/>
+    <div>
+      <div id="app-container">
+        <MobileScren content={content}/>
+        
+        <div id="qr-text">
+          <h1 className="mb-10 text-center">Acesse nosso cartão <br /> pelo celular</h1>
+          <QRCode value="https://degustarbuffet-socialmedias.netlify.app" className=" mx-auto border-primary"/>
+        </div>
       </div>
     </div>
   );

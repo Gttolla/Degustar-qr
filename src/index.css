@@ -104,6 +104,12 @@ footer {
     #qr-text {
         @apply hidden
     }
+
+    /* contact-bar */
+    #ContactBar{
+        @apply sticky
+    }
+
 }
 
 @media(max-width: 327px){

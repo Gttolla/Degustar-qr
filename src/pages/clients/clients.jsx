@@ -10,10 +10,10 @@ import Gk from "../../assets/imgs/gk.jpg"
 
 function Clients () {
     return (
-        <div className="px-6">
+        <div className="px-6 text-center">
             <div className="my-11">
-                <h1 className="mb-3">Clientes</h1>
-                <p className="font-text">Emocionando pessoas e empresas com experiências gastronômicas inesquecíveis. Conheça nossos protagonistas, e venha fazer parte da nosso história.</p>
+                <h1 className="mb-4 text-[2rem]">Clientes</h1>
+                <p className="font-text">Emocionando pessoas e empresas com experiências gastronômicas inesquecíveis. Conheça nossos protagonistas, e <b>venha fazer parte da nosso história.</b> </p>
             </div>
             
             <div className="flex flex-wrap justify-between gap-7">
