@@ -53,7 +53,7 @@ function Main() {
                     </div>
                 </Link>
 
-                <Link to='/eventos'>
+                <Link to='/test'>
                     <div className="page-block">
                         <img src={Events} alt="eventos" />
                         <div className='page-block-title'>
