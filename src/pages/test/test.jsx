@@ -1,4 +1,3 @@
-import Msg from '../../components/msg';
 import Slider from '../../components/slider';
 
 function Test() {
