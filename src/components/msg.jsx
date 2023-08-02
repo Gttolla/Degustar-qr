@@ -51,7 +51,7 @@ function Msg() {
   };
 
   return (
-    <div className="fixed z-40" style={messageStyle}>
+    <div className="z-50" style={messageStyle}>
       {showMessage && (
         <div className="flex items-center m-6 bg-yellow-500 text-white px-4 py-2 rounded-lg" data-aos="fade-left" data-aos-duration="700" id="msg">
           <button onClick={Dismiss}>

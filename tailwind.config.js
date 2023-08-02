@@ -15,7 +15,6 @@ module.exports = {
       green: colors.green,
       'primary': '#B43F3F',
       'secondary':'#FD5252',
-      'top-screen': '#5A1D1D',
       'text': '#EEEEEE',
     },
     fontFamily: {

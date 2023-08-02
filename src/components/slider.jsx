@@ -1,4 +1,10 @@
 function Slider () {
+    const slides = [
+        {
+            url:''
+        },
+    ]
+    
     return(
         <div></div>
     );
