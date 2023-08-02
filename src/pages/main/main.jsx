@@ -34,7 +34,7 @@ function Main() {
 
             </div>
 
-            <div className="px-6 pt-8">
+            <div className="px-6 pt-8 pb-28">
                 <h1 className="mb-3">Elevando o Paladar</h1>
                 <p className="font-text">Descubra o sabor inesquecível com a Degustar Buffet! Criamos experiências gastronômicas extraordinárias para eventos corporativos, com um cardápio personalizado que vai do simples ao refinado. Escolha a Degustar Buffet e eleve o nível do seu próximo evento, onde sabor e emoção se encontram em perfeita harmonia!</p>
 
