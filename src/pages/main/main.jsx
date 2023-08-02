@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+import Msg from '../../components/msg';
+
 import { FaWhatsapp as Wp, FaFacebook as Face, FaInstagram as Insta, } from 'react-icons/fa6'
 import { TbWorldWww as Site } from 'react-icons/tb'
 
@@ -12,8 +14,9 @@ function Main() {
     return (
         <div>
             <div className="relative" id="image-gradient">
-
-                <img src={Img} alt="img" className="w-full object-cover h-80"/>
+                <Msg />
+                
+                <img src={Img} alt="img" className="w-full object-cover h-80" />
 
                 <div id="gradient">
                     <div className="flex items-center">
@@ -53,7 +56,7 @@ function Main() {
                     </div>
                 </Link>
 
-                <Link to='/test'>
+                <Link to='/eventos'>
                     <div className="page-block">
                         <img src={Events} alt="eventos" />
                         <div className='page-block-title'>

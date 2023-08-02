@@ -5,7 +5,7 @@ import Logo from "../assets/imgs/logo.jpg"
 
 function Footer () {
     return(
-        <footer className="px-6 py-4 bg-primary font-['Montserrat'] text-[12px] flex justify-between flex-wrap gap-4">
+        <footer className="px-6 py-4 bg-primary font-['Montserrat'] text-[12px] flex justify-between flex-wrap gap-4" id="footer">
             
             <div>
                 <div className="flex items-center mb-2">

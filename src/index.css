@@ -37,6 +37,16 @@ footer {
     @apply px-1 bg-white bg-opacity-20 border-2 border-white border-opacity-50 rounded-full
 }
 
+/* contact-bar */
+#contact-icons{
+    @apply bg-secondary py-1 px-2 rounded-xl
+}
+
+/* msg */
+#msg{
+    @apply bg-secondary p-4 rounded-md shadow-xl text-text
+}
+
 /* Main */
 #gradient {
     @apply w-full h-auto absolute bottom-0 px-6 bg-gradient-to-t from-white from-70%
@@ -104,12 +114,6 @@ footer {
     #qr-text {
         @apply hidden
     }
-
-    /* contact-bar */
-    #ContactBar{
-        @apply sticky
-    }
-
 }
 
 @media(max-width: 327px){
