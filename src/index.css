@@ -47,6 +47,11 @@ footer {
     @apply bg-secondary p-4 rounded-md shadow-xl text-text
 }
 
+/* slider */
+.arrow-icon{
+    @apply absolute text-2xl rounded-full bg-black/20 text-white cursor-pointer bottom-[60%]
+}
+
 /* Main */
 #gradient {
     @apply w-full h-auto absolute bottom-0 px-6 bg-gradient-to-t from-white from-70%

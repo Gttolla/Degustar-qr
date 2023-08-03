@@ -5,7 +5,6 @@ import { GoArrowUp } from 'react-icons/go';
 function Msg() {
   const [showMessage, setShowMessage] = useState(false);
   const [dismissButton, setDismissButton] = useState(false);
-  const [messageStyle, setMessageStyle] = useState({});
 
   const Dismiss = () => {
     setDismissButton(true);
@@ -22,18 +21,8 @@ function Msg() {
         setShowMessage(true);
 
         if (window.scrollY + windowHeight >= footerTop) {
-          setMessageStyle({
-            position: 'absolute',
-            bottom: windowHeight + window.scrollY - footerTop,
-            right: 0,
-          });
-        } else {
-          setMessageStyle({
-            position: 'fixed',
-            bottom: 0,
-            right: 0,
-          });
-        }
+          setShowMessage(false)
+        } 
       } else {
         setShowMessage(false);
       }
@@ -51,7 +40,7 @@ function Msg() {
   };
 
   return (
-    <div className="z-50" style={messageStyle}>
+    <div className="fixed bottom-0 right-0 z-50">
       {showMessage && (
         <div className="flex items-center m-6 bg-yellow-500 text-white px-4 py-2 rounded-lg" data-aos="fade-left" data-aos-duration="700" id="msg">
           <button onClick={Dismiss}>

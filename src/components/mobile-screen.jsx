@@ -12,7 +12,9 @@ function MobileScren (props){
                         <ContactBar/>
                     </div>
 
-                    {props.content}
+                    <div className="pb-28">
+                        {props.content}
+                    </div>
 
                     <Footer />
                 </div>
