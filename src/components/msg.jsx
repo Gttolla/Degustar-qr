@@ -23,7 +23,7 @@ function Msg() {
 
         if (window.scrollY + windowHeight >= footerTop) {
           setMessageStyle({
-            position: 'fixed',
+            position: 'absolute',
             bottom: windowHeight + window.scrollY - footerTop,
             right: 0,
           });
