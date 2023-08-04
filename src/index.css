@@ -27,6 +27,10 @@ footer {
     @apply font-semibold
 }
 
+.title{
+    @apply text-[2rem]
+}
+
 /* mobile-screen */
 #screen {
     @apply w-full h-full relative bg-white

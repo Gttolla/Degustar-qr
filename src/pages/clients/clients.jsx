@@ -1,18 +1,18 @@
-import Danone from "../../assets/imgs/danone.png"
-import Ems from "../../assets/imgs/ems.png"
-import Apsen from "../../assets/imgs/apsen.png"
-import Crist from "../../assets/imgs/crist.jpg"
-import Labor from "../../assets/imgs/labor.jpg"
-import Fuji from "../../assets/imgs/fuji.png"
-import Rodo from "../../assets/imgs/rodo.png"
-import Ouro from "../../assets/imgs/ouro.jpg"
-import Gk from "../../assets/imgs/gk.jpg"
+import Danone from "../../assets/imgs/clients/danone.png"
+import Ems from "../../assets/imgs/clients/ems.png"
+import Apsen from "../../assets/imgs/clients/apsen.png"
+import Crist from "../../assets/imgs/clients/crist.jpg"
+import Labor from "../../assets/imgs/clients/labor.jpg"
+import Fuji from "../../assets/imgs/clients/fuji.png"
+import Rodo from "../../assets/imgs/clients/rodo.png"
+import Ouro from "../../assets/imgs/clients/ouro.jpg"
+import Gk from "../../assets/imgs/clients/gk.jpg"
 
 function Clients () {
     return (
-        <div className="px-6 text-center">
-            <div className="my-11">
-                <h1 className="mb-4 text-[2rem]">Clientes</h1>
+        <div className="px-6 pt-11 text-center">
+            <div className="mb-11">
+                <h1 className="title mb-4">Clientes</h1>
                 <p className="font-text">Emocionando pessoas e empresas com experiências gastronômicas inesquecíveis. Conheça nossos protagonistas, e <b>venha fazer parte da nosso história.</b> </p>
             </div>
             

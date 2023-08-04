@@ -8,7 +8,7 @@ import { TbWorldWww as Site } from 'react-icons/tb'
 
 import Logo from "../../assets/imgs/logo.jpg"
 import Events from "../../assets/imgs/events.jpg"
-import Clients from "../../assets/imgs/clients.jpg"
+import Clients from "../../assets/imgs/clients/clients.jpg"
 
 function Main() {
     return (
