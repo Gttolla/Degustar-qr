@@ -10,7 +10,7 @@ function ContactBar (){
                 
                 <ul className="m-0 p-0 flex gap-4 items-center" id="contact-icons">
                     <li>
-                        <a href="https://api.whatsapp.com/message/4WMLSCLMQTAVN1?autoload=1&app_absent=0"><Wp size={25} color="white"/></a> 
+                        <a href="https://wa.me/5511931455520"><Wp size={25} color="white"/></a> 
                     </li>
                     <div className=" h-6 border bg-text"></div>     
                     <li>
