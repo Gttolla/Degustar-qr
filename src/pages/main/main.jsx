@@ -7,7 +7,7 @@ import { FaWhatsapp as Wp, FaFacebook as Face, FaInstagram as Insta, } from 'rea
 import { TbWorldWww as Site } from 'react-icons/tb'
 
 import Logo from "../../assets/imgs/logo.jpg"
-import Events from "../../assets/imgs/events.jpg"
+import Events from "../../assets/imgs/events/events.jpg"
 import Clients from "../../assets/imgs/clients/clients.jpg"
 
 function Main() {
@@ -34,11 +34,10 @@ function Main() {
             </div>
 
             <div className="px-6 pt-8">
-                <h1 className="mb-3">Elevando o Paladar</h1>
-                <p className="font-text">Descubra o sabor inesquecível com a Degustar Buffet! Criamos experiências gastronômicas extraordinárias para eventos corporativos, com um cardápio personalizado que vai do simples ao refinado. Escolha a Degustar Buffet e eleve o nível do seu próximo evento, onde sabor e emoção se encontram em perfeita harmonia!</p>
+                <p className="font-text">Conheça a experiência exclusiva da Degustar Buffet! Transformamos eventos corporativos com cardápios personalizados, do simples ao sofisticado. Escolha Degustar para elevar seu próximo evento, onde o sabor se une à excelência com autenticidade.</p>
 
                 <div className="flex w-full my-9 justify-between flex-wrap gap-2">
-                    <a href="https://api.whatsapp.com/message/4WMLSCLMQTAVN1?autoload=1&app_absent=0" className="social-icons"><Wp size={30} /></a>
+                    <a href="https://wa.me/5511931455520" className="social-icons"><Wp size={30} /></a>
                     <a href="https://www.instagram.com/degustar.buffet/" className="social-icons"><Insta size={30} /></a>
                     <a href="https://m.facebook.com/degustarbuffetoficial" className="social-icons"><Face size={30} /></a>
                     <a href="https://www.degustarbuffet.com.br" className="social-icons"><Site size={30} /></a>
@@ -59,7 +58,7 @@ function Main() {
                     <div className="page-block">
                         <img src={Events} alt="eventos" />
                         <div className='page-block-title'>
-                            <span className="font-titles">Eventos</span>
+                            <span className="font-titles">Galeria de Eventos</span>
                         </div>
                     </div>
                 </Link>

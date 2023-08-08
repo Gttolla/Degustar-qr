@@ -16,7 +16,7 @@ function Events () {
         <div className="pt-11 pb-2 px-6 text-center">
             <h1 className="title">Galeria de <br/> enventos</h1>
 
-            <div className="flex flex-col object-cover object-center gap-6 mt-8">
+            <div className="flex flex-col object-cover object-center gap-9 mt-8">
                 <img src={Event} alt="event-img" />
                 <img src={Event1} alt="event-img" />
                 <img src={Event2} alt="event-img" />

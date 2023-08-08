@@ -13,7 +13,10 @@ function Clients () {
         <div className="px-6 pt-11 text-center">
             <div className="mb-11">
                 <h1 className="title mb-4">Clientes</h1>
-                <p className="font-text">Emocionando pessoas e empresas com experiências gastronômicas inesquecíveis. Conheça nossos protagonistas, e <b>venha fazer parte da nosso história.</b> </p>
+                <p className="font-text">
+                    Conheça os <b>"clientes-chave"</b> que confiam em nós para resolver seus desafios. 
+                    <b> Junte-se a eles</b> e experimente soluções reais através dos nossos buffets.
+                </p>
             </div>
             
             <div className="flex flex-wrap justify-between gap-7">

@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     Aos.init();
   },[])
-  
+
   const content =
     <Routes>
       <Route path="/" element={<Main />} />
